@@ -17,7 +17,7 @@ function Navbar() {
             }}
           />
         </Link>
-        <div className='text-2xl text-white px-4 font-bold'>NGOConnect
+        <div className='text-2xl text-white px-4 font-bold'>;
 
         </div>
       </div>

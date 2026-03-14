@@ -59,7 +59,6 @@ app.post('/api/donations', async (req, res) => {
     res.status(500).json({ error: 'Server error, please try again later' });
   }
 });
-
 // ✅ Contact submission route
 app.post('/api/contacts', async (req, res) => {
   try {

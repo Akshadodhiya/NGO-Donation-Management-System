@@ -47,7 +47,7 @@ function Donate() {
     setSuccess('');
 
     try {
-      const response = await fetch('http://localhost:5000/api/donations', {
+      const response = await fetch('http://localhost:5000/models/Donation' , {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -58,7 +58,7 @@ function Donate() {
           date,
           location,
           donationType,
-          amount: donationType === 'money' ? Number(amount) : undefined,
+          amount: donationType === 'money' ? Number(amount) : undefined
         }),
       });
 
