@@ -86,4 +86,9 @@ app.post('/api/contacts', async (req, res) => {
 
 // ✅ Start server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+
+// '0.0.0.0' add karne se Codespaces isse sahi se forward kar payega
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`🚀 Server running on port ${PORT}`);
+});jmk
+()

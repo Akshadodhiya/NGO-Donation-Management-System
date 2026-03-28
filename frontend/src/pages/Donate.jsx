@@ -47,7 +47,7 @@ function Donate() {
     setSuccess('');
 
     try {
-      const response = await fetch('http://localhost:5000/models/Donation' , {
+      const response = await fetch('http://localhost:5000/api/donations' , {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -1,6 +1,6 @@
-# 🌍 NGOConnect
+# 🌍 SatyaSanskar foundation 
 
-**NGOConnect** is a web-based platform built to connect people with a purpose — enabling donations, volunteering, and support for **poor people and underprivileged children**. This project bridges the gap between **donors**, **NGOs**, and **those in need**, helping create a more compassionate and connected world.
+**SatyaSanskar Foundation ** is a web-based platform built to connect people with a purpose — enabling donations, volunteering, and support for **poor people and underprivileged children**. This project bridges the gap between **donors**, **NGOs**, and **those in need**, helping create a more compassionate and connected world.
 
 ---
 
@@ -21,9 +21,7 @@
 - 🎨 **Tailwind CSS** – Styling
 - 🌐 **React Router DOM** – Navigation
 - 📁 **Public Assets** – For images and media
-- (Optional: Add backend info like Node.js, Firebase, MongoDB if you're using it)
-
----
+- **Backend** - Node.js , MongoDB
 
 ## 🚀 Getting Started
 
@@ -35,7 +33,11 @@
 
 ```bash
 git clone [https://github.com/your-username/ngoconnect.git](https://github.com/parmarkalpesh/NGO.git)
-- cd ngoconnect
+- cd Frontend
+- npm install
+- npm start
+
+- cd Backend
 - npm install
 - npm start
 
@@ -45,6 +47,5 @@ git clone [https://github.com/your-username/ngoconnect.git](https://github.com/p
 📬 Contact
 For collaboration, support, or questions, reach out to:
 
-Kalpesh Parmar
-📧 Email: kalpeshparmar1586@gmail.com
-🌐 Website: [kalpesh Parmar](https://www.kalpeshparmar.me/)
+Aksha Dodhiya
+📧 Email: akshadodhiya0@gmail.com

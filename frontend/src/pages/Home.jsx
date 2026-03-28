@@ -29,7 +29,7 @@ function Home() {
         <div className="relative flex items-center justify-center min-h-screen px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in-down">
-              Welcome to NGOConnect
+              Welcome to SatyaSanskar   
             </h1>
             <p className="text-lg sm:text-xl text-gray-200 mb-8 animate-fade-in-up">
               Empowering change by connecting NGOs with passionate volunteers
